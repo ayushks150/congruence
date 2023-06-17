@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In Page</title>
+    
+    <link rel="stylesheet" href="login.css">
+    
+     <script>
+        function redirectToHomePage(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+            window.location.href = "home.html"; // Replace "home.html" with your desired home page URL
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sign In</h1> 
+        
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <a href="home.html"><button >Sign In</button></a>
+        
+        <div class="social-buttons">
+            <button>Continue with Google</button>
+            <button>Continue with Facebook</button>
+            <button>Continue with Twitter</button>
+        </div><br/>
+        <div class = "nahi"><a href="javascript:void(0)"
+            class="mb-2 inline-block text-base text-[#adadad] hover:text-primary hover:underline">
+            Forget Password?
+        </a>
+        <p class="text-base text-[#adadad]">
+            Not a member yet?
+            <a href="registration.html" class="text-primary hover:underline">
+                Sign Up
+            </a>
+        </p>
+    </div>
+    </div>
+</body>
+
+</html>

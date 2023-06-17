@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    
+}
+
+
+.header{
+    background-color: #180a0a;
+	color: #30e3ca;
+    height: 75px;
+	display: flex;
+}
+
+.header div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    
+}
+
+.para{
+    margin-left: 230px;
+    padding-top: 10px;
+}
+
+.congu{
+
+    margin-right: 180px;
+    padding-top: 5px;
+}
+
+.image{
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+	display: flex;
+	gap: 50px;
+    
+}
+
+footer{
+    margin-top: 64px;
+}
+
+
+
+.header a {
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover {
+	color: wheat;
+	font-weight: bold;
+}
+
+footer {
+	background: #180a0a;
+	color: #30e3ca;
+}
+
+footer{
+    margin-top: 64px;
+}
+footer div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #30e3ca;
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Add your custom CSS styles here */
+.pt-20 {
+    padding-top: 20px;
+}
+
+.lg\:pt-120px {
+    padding-top: 120px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.lg:pb-20 {
+    padding-bottom: 20px;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.bg-#F3F4F6 {
+    background-color: #F3F4F6;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card {
+    width: 350px;
+    margin-left: 90px;
+}
+
+.card-in {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 100px 100px 100px 100px;
+
+}
+
+third {
+    text-align: center;
+}
+
+.card-img {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+button{
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(22, 22, 22);
+    padding-top: 35px;
+}
+
+.filter {
+    float: right;
+    padding-right: 5%;
+
+
+}
+
+#ageFilter {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.head {
+    text-align: center;
+    padding-left: 10%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}

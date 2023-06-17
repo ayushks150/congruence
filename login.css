@@ -1,0 +1,80 @@
+
+body {
+font-family: Arial, sans-serif;
+
+background: url("login.jpg");
+background-repeat: no-repeat;
+background-size: 1400px 700px;
+
+
+}
+
+.container {
+max-width: 400px;
+padding: 20px;
+margin-top: 85px;
+margin-left: 820px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+width: 100%;
+padding: 10px;
+padding-right: 2px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+.social-buttons {
+display: flex;
+flex-direction: column;
+}
+
+.social-buttons button {
+background-color: #4267B2;
+}
+
+.social-buttons button:nth-child(2) {
+background-color: #1DA1F2;
+}
+
+.social-buttons button:nth-child(3) {
+background-color: #DB4437;
+}
+
+.social-buttons button:hover {
+background-color: #3b5998;
+}
+
+.social-buttons button:last-child {
+margin-bottom: 0;
+}
+.nahi{
+text-align: center;
+background-color: #fff;
+padding-top: 10px;
+padding-bottom: 3px;
+}
