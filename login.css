@@ -2,9 +2,6 @@
 body {
 font-family: Arial, sans-serif;
 
-background: url("login.jpg");
-background-repeat: no-repeat;
-background-size: 1400px 700px;
 
 
 }
@@ -13,7 +10,7 @@ background-size: 1400px 700px;
 max-width: 400px;
 padding: 20px;
 margin-top: 85px;
-margin-left: 820px;
+margin-left: 460px;
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
